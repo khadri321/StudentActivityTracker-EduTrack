@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Admin Login</title>
+<style>
+body {
+background-image:url("backgroundimage2.jpeg"); no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+</style>
+  </head>
+  <body>
+<center>
+    <h1>Admin Login</h1>
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username"><br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password"><br><br>
+      <button onclick="login()"><a href="t1.html">Login </a></button>
+    </form>
+    <p id="error-message"></p>
+    <script>
+      function login() {
+        // Get the username and password from the form
+        var username = document.getElementById('username').value;
+        var password = document.getElementById('password').value;
+       
+        // Check if the username and password are correct
+        if (username === 'admin' && password === 'password123') {
+          // Redirect the user to the admin page
+	   window.location.href='\admin';        
+        } else {
+          // Display an error message if the credentials are incorrect
+          document.getElementById('error-message').innerHTML = 'Incorrect username or password.';
+          event.preventDefault();
+        }
+      }
+    </script>
+</center>
+  </body>
+</html>

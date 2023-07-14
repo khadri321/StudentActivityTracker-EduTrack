@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Performance Report</title>
+    <script>
+      function calculatePerformance() {
+        var marks = document.getElementById("marks").value;
+        var grade;
+        if (marks >= 90) {
+          grade = "you are excellent keep it up!";
+          document.getElementById("bar").style.backgroundColor = "green";
+          document.getElementById("bar").style.width = "200px";
+        } else if (marks >= 80) {
+          grade = "you are good keep it up!";
+          document.getElementById("bar").style.backgroundColor = "lightgreen";
+          document.getElementById("bar").style.width = "180px";
+        } else if (marks >= 70) {
+          grade = "you are good but please try to improve ";
+          document.getElementById("bar").style.backgroundColor = "yellow";
+          document.getElementById("bar").style.width = "160px";
+        } else if (marks >= 60) {
+          grade = "work hard and try to improve yourself";
+          document.getElementById("bar").style.backgroundColor = "orange";
+          document.getElementById("bar").style.width = "140px";
+        } else if (marks >= 50) {
+          grade = "be motivated and work hard ";
+          document.getElementById("bar").style.backgroundColor = "darkorange";
+          document.getElementById("bar").style.width = "120px";
+        } else if (marks >= 40) {
+          grade = "you have to improve a lot";
+          document.getElementById("bar").style.backgroundColor = "red";
+          document.getElementById("bar").style.width = "100px";
+        } else {
+          grade = "you are failed ! try again ";
+          document.getElementById("bar").style.backgroundColor = "darkred";
+          document.getElementById("bar").style.width = "80px";
+        }
+        document.getElementById("result").innerHTML = " " + grade;
+        document.getElementById("result").style.color = "black";
+      }
+    </script>
+    <style>
+      body {
+        background-color: lightblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+      }
+      #bar {
+        height: 20px;
+        margin-top: 10px;
+        transition: width 1s;
+      }
+    </style>
+  </head>
+  <body>
+    <label for="marks">Enter your marks:</label>
+    <input type="text" id="marks">
+    <button onclick="calculatePerformance()">Performance Test</button>
+    <div id="bar"></div>
+    <p id="result"></p>
+  </body>
+</html>
