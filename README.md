@@ -1,17 +1,16 @@
 # StudentActivityTracker-EduTrack
-Student-Performance-Tracker This project is done in Hackathon under 24hrs in RGMCET  Student performance tracker is a project which is developed for students to manage,analyze and visualize their day to day performance based on their test results and attendence.It provides functionalities for student,admin and super admin.
+Student-Performance-Tracker This project is done in Hackathon under 24hrs in RGMCET , Student performance tracker is a project which is developed for students to manage,analyze and visualize their day to day performance based on their test results and attendence.It provides functionalities for student,admin and super admin.
 ## Project Description
 
 Student performance tracker consist of 3 roles:
 
 
-1.Student: They have their student dashboard by this they can view their test results,attendence,reports, performance&suggestions.
+1.Student: They have their student dashboard through which they can view their test results,attendence,reports, performance & suggestions.
 
-2.Admin:Admin can have access about what are test conducted and their results,they can able to add new records etc.
-The admin provided with the detailed report of all the tests conducted. Admin can able to sort them and track the performance based on the topics, departments, classes and even individuals.
+2.Admin : Admin can obtain information regarding the tests that have been conducted and their results,they can able to add new records etc.
+The Admin receives a detailed report containing information about all the tests that have been done. Admin can able to sort them and track the performance based on the topics, departments, classes and even to individuals.
 
-3.Super Admin:An admin, who will be capable of authenticating admin accounts, setting their role is referred to as Super Admin.
- Super Admin should be provided with the facility to analyse and compare the performance of all the institutes.
+3.Super Admin:A Super Admin is responsible for authenticating admin accounts and assigning their roles. Additionally, the Super Admin should be equipped with the capability to analyze and compare the performance of all institutes.
  
  ## Features
 Authentication:
@@ -38,7 +37,7 @@ Admin can navigate to admin dashboard.
 5.Super admin and admin can make their desired actions based on their needs.
 
 ## Installation
-1.Clone the repository:git clone:https://github.com/Harinikristipati/StudentPerformanceTracker-Edutrack
+1.Clone the repository:git clone : https://github.com/Harinikristipati/StudentPerformanceTracker-Edutrack
 
 2.Install the required dependencies. 
 
@@ -82,5 +81,5 @@ Ghouse Peer Khadri S
 ## Acknowledgements
 We would like to express our gratitude and appreciation to the following individuals and organizations for their valuable contributions and support throughout the development of the StudentPerformanceTracker Project
 
-We would like to acknowledge the support and resources provided by RGMCET that have been hepls in the successful completion of this project.
+We would like to express our gratitude for the valuable support and resources provided by RGMCET, which have greatly contributed to the successful completion of this project.
 We would like to thank BYTS INDIA and RGMCET for their guidance and organizing the hackathon and providing the opportunity to work on this project.
